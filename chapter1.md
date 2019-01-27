@@ -76,4 +76,23 @@ fiber to the home(FTTH) - provides an optical fiber path from the CO directly to
 > 1. active optical networks(AONs) :point_right: essentially switched Ethernet
 > 2. passive optical networks(PONs)
 
--  
+##### FTTH using PON
+
+> extension of previous section
+
+- Each home has an optical network terminator(ONT), which is connected by dedicated optical fiber to a neighborhood splitter.
+
+- the splitter combines a no. of homes onto a single, shared optical fiber, which connects to an optical line terminator(OLT) in the telco's CO.
+
+- the OLT, providing conversion between optical and electrical signals, connects to the Internet via a telco router. In the home, users connect a home router(typically a wireless router) to the ONT and access the Internet via this home router. 
+
+- In the PON architecture, all packets sent from OLT to the splitter are replicated at the splitter(similar to a cable head end)
+
+> FTTH can provide Internet access rates in the gigabits per second range.
+
+> :point_right: :point_right: 2 other access network technologies are also used to provide Internet access to the home they are :point_right: Satellite link and Dial-up access(based on sme model as DSL) and these are very slow
+
+### Access in the Enterprise(and the Home): Ethernet and WiFi
+
+
+   
