@@ -62,7 +62,7 @@ Here local cable television company acts as an ISP. Cable Internet access makes 
 
 - At the cable head end, the cable modem termination system(CMTS) serves a similar function as the DSL network's DSLAM(turning the analog signal sent from the cable modems in many downstream homes back into digital format)
 
-- Asymmetric :pont_right: downstream rate (42.8Mbps) > upstream rate (30.7 Mbps)
+- Asymmetric :point_right: downstream rate (42.8Mbps) > upstream rate (30.7 Mbps)
 
 - it is shared broadcast medium :point_right: every packet sent by the head end travels downstream on every link to every home and every packet sent by a home travels on the upstream channel to the head end.
 
