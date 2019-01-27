@@ -42,9 +42,9 @@ A residence obtains DSL Internet access from the same local telephne company(tel
 - the analog signals from many such homes are translated back into digital format at the DSLAM
 
 >The residential telephone line carries both data and traditional telephone signals simultaneously, which are encoded at different frequencies:
-1. A high-speed downstream channel (50 kHz to 1MHz band) 
-2. A medium-speed upstream channel (4kHz to 50kHz band)
-3. An ordinary two-way telephone channel (0 to 4kHz band)
+> 1. A high-speed downstream channel (50 kHz to 1MHz band) 
+> 2. A medium-speed upstream channel (4kHz to 50kHz band)
+> 3. An ordinary two-way telephone channel (0 to 4kHz band)
 
 
 
