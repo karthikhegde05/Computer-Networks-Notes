@@ -46,5 +46,34 @@ A residence obtains DSL Internet access from the same local telephne company(tel
 > 2. A medium-speed upstream channel (4kHz to 50kHz band)
 > 3. An ordinary two-way telephone channel (0 to 4kHz band)
 
+> This makes DSL link and telephone connection separate. This technique is called Frequency Division Multiplexing
 
+Here the downstream(12Mbps) and upstream(1.8Mbps) transmissio rates are different :point_right: Asymmetric.
 
+>Engineers have expressly designed DSL for short distances between the home and the CO.
+
+#### Cable
+
+Here local cable television company acts as an ISP. Cable Internet access makes use of the television company's existiing cable television infrastructure
+
+- fibre optics connect the cable head end to neighborhood-level junctions, from which traditional coaxial cable is then used to reach individual houses and apartments. Due to use of both fibre and coaxial cable this system is often referred to as Hybrid Fiber Coax(HFC)
+
+- Cable modems is typically an external device and connects to the home PC through an Ethernet port.
+
+- At the cable head end, the cable modem termination system(CMTS) serves a similar function as the DSL network's DSLAM(turning the analog signal sent from the cable modems in many downstream homes back into digital format)
+
+- Asymmetric :pont_right: downstream rate (42.8Mbps) > upstream rate (30.7 Mbps)
+
+- it is shared broadcast medium :point_right: every packet sent by the head end travels downstream on every link to every home and every packet sent by a home travels on the upstream channel to the head end.
+
+- Because the upstream channel is also shared, a distributed multiple access protocol is needed to coordinate transmissions and avoid collisions.
+
+#### FTTH
+
+fiber to the home(FTTH) - provides an optical fiber path from the CO directly to the home. 
+
+> the simplest optical distribution network is called direct fiber, with one fiber leaving the CO for each home. More commonly, each fiber leaving the CO is actually shared by many homes; it is not until the fiber gets relatively close to the homes that it is split into individual customer-specific fibers. There are two competing optical-distribution network architectures that perform this splitting: 
+> 1. active optical networks(AONs) :point_right: essentially switched Ethernet
+> 2. passive optical networks(PONs)
+
+-  
