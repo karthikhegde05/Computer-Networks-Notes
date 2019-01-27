@@ -94,5 +94,22 @@ fiber to the home(FTTH) - provides an optical fiber path from the CO directly to
 
 ### Access in the Enterprise(and the Home): Ethernet and WiFi
 
+On a corporate level, a local area network(LAN) is used to connect an end system to the edge router. Although there are many types of LAN technologies, Ethernet is by far the most prevalent access technology in corporate networks.
 
+- Ethernet users use twisted-pair copper wire to connect to an Ethernet switch. The Ethernet switch, or a network of such interconnected switches, is then in turn connected into the larger Internet.
+
+> With Ethernet access, users typically have 100 Mbps access to the Ethernet switch, whereas servers may have 1 Gbps/ 10 Gbps
+
+- In a wireless LAN setting, wireless users transmit/receive packets to/from an access point that is connected into the enterprise's network(most likely including wired Ethernet), which in turn is connected to the wired Internet. 
+
+- A wireless LAN user(a.k.a WiFi) is now everywhere.
+
+> Ethernet and WiFi have recently become common in the components of home networks. Many homes combine broadband residential access(cable modems/DSL) with these inexpensive wireless LAN technologies to create powerful home networks. 
    
+### Wide-Area Wireless Access: 3G and LTE
+
+devices like iPhones, Blackberrys and Android devices employ the same wireless infrastructure used for cellular telephony to send/receive packets through a base station that is operated by the cellular network provider. Unlike WiFi, a user need only be within a few tens of kilometers(as opposed to a few tens of meters) of the base station.
+
+> Telecom companies have mad enormous investments in so-called third-generation(3G) wireless, which provides packet-switched wide-area wireless Internet access at speeds in excess of 1 Mbps. But even higher-speed wide-area access technologies-a fourth generation(4G) of wide-area wireless networks-are already being deployed. LTE (Long Term Evolution) has its roots in 3G technology, and can potentially achieve rates in excess of 10 Mbps.
+
+
