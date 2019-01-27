@@ -112,4 +112,6 @@ devices like iPhones, Blackberrys and Android devices employ the same wireless i
 
 > Telecom companies have mad enormous investments in so-called third-generation(3G) wireless, which provides packet-switched wide-area wireless Internet access at speeds in excess of 1 Mbps. But even higher-speed wide-area access technologies-a fourth generation(4G) of wide-area wireless networks-are already being deployed. LTE (Long Term Evolution) has its roots in 3G technology, and can potentially achieve rates in excess of 10 Mbps.
 
+### Physical media 
 
+Goto this link :point_right: [Phyiscal Media](https://www.geeksforgeeks.org/types-transmission-media/)
