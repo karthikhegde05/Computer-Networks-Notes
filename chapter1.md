@@ -31,6 +31,20 @@ Two most prevalent types of broadband residential access:
 
 2. Cable
 
-####DSL
+#### DSL
 
-A residence obtains DSL Internet access from the same local telephne company(telco) that provides its wired local phone access. Thus, when DSL is used, a customer's telco is also its
+A residence obtains DSL Internet access from the same local telephne company(telco) that provides its wired local phone access. Thus, when DSL is used, a customer's telco is also its ISP. 
+
+- the DSL modem exchanges digital data with a digital subscriber line access multiplexer(DSLAM) located in telco's local CO
+
+- The home's DSL modem takes digital data and translates it to high-frequency tones for transmission over telephone wires to the CO(telco's central office)
+
+- the analog signals from many such homes are translated back into digital format at the DSLAM
+
+>The residential telephone line carries both data and traditional telephone signals simultaneously, which are encoded at different frequencies:
+1. A high-speed downstream channel (50 kHz to 1MHz band) 
+2. A medium-speed upstream channel (4kHz to 50kHz band)
+3. An ordinary two-way telephone channel (0 to 4kHz band)
+
+
+
