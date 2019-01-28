@@ -46,8 +46,8 @@ Matrix obtained by deleting some of the rows and/or columns of a matrix is calle
 A<sub>mxn</sub> = \[B<sub>m\*r</sub>  C<sub>m\*(n-r)</sub>\]
 
 A<sub>m\*n</sub> =  \[B<sub>r\*n</sub>\]
-     
-                    \[C<sub>(n-r)\*n</sub>\]
+
+                     \[C<sub>(n-r)\*n</sub>\]
 
 
 
