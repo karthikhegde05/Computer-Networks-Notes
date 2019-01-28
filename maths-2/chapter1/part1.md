@@ -43,8 +43,9 @@ Matrix obtained by deleting some of the rows and/or columns of a matrix is calle
 
 #### Block Matrix
 
-A<sub>m*n</sub> = \[B<sub>m*r</sub> C<sub>m*(n-r)</sub>\]
+A<sub>m\*n</sub> = \[B<sub>m\*r</sub> C<sub>m\*(n-r)</sub>\]
 
-A<sub>m*n</sub> = |B<sub>r*n</sub>|                                                               |C<sub>(m-r)*n</sub>|
+A<sub>m\*n</sub> = |B<sub>r\*n</sub>|
+                   |C<sub>(m-r)\*n</sub>|
 
 
