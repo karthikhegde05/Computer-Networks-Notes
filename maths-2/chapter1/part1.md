@@ -45,10 +45,10 @@ Matrix obtained by deleting some of the rows and/or columns of a matrix is calle
 
 A<sub>mxn</sub> = \[B<sub>m\*r</sub> C<sub>m\*(n-r)</sub>\]
 
-A<sub>m\*n</sub> = 
+A<sub>m\*n</sub> =  (The table below is a matrix)
 
 |B<sub>r\*n</sub>|
-| --------------- |
+| --------------- |  
 |C<sub>(m-r)\*n</sub>|
 
 
