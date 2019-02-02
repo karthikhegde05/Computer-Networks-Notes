@@ -75,3 +75,29 @@ A circuit in a link is implemented with either **frequency-division multiplexing
 - Circuit Switching pre-allocates use of the transmission link regardless of demand, with allocated but unneeded link time going unused. Packet switching on the other hand allocated link use on demand. Link transmission capacity will be shard on a packet-by-packet basis only among those users who have packets that need to be transmitted over the link. 
 
 > Although both forms are prevalent in today's telecommunication networks, the trend has certainly been in the direction of packet switching.  
+
+### A Network of Networks
+
+end systems connect into the Internet via an access ISP. The access ISP can provide either wired or wireless connectivity, using an array of access technologies including DSL, cable, FTTH, WiFi, and cellular.
+
+> Access ISP does not have to be a telco or a cable company, instead it can be an university or a company (for its employees).
+
+- *Network Structure 1* interconnects all of the access ISPs with a **single global transit ISP**. Our global transit ISP is a network of routers and communication links that not only spans the globe, but also has atleast one router near each of the hundreds of thousands of access ISPs. 
+
+- it is very costly for the global ISP to build such an extensive network. To be profitable, it would naturally charge each of the access ISPs for connectivity, with the pricing reflecting the amt of traffic an access ISP exchanges with the global ISP. Here the global transit ISP is said to be a provider and the access ISP is said to be a customer. 
+
+> Now if some company builds and operates a global transit ISP that is profitable, then it is natural for other companies to build their own global transit ISPs and compete with the original global transit ISP. This lead to *Network Structure 2*
+
+- *Networks Structure 2* consists of the hundreds of thousands of access ISPs and multiple global transit ISPs. The Network Structure 2 is a 2-tier hierarchy with global trasnit providers residing at the top tier and access ISPs at the bottom tier. 
+
+- In reality, although some ISPs do have impressive global coverage and do directly connect with many access ISPs, no ISP has presence in each and every city  in the world. Instead, in any given region, there may be a **regional ISP** to which the access ISPs in the region connect. Each regional ISP then connects to tier-1 ISPs (here global transit ISPs). 
+
+> Interestingly no group officially sanctions tier-1 status
+
+- there are not only multiple competing tier-1 ISPs, there may be multiple competing regional ISPs in a region. In this case, each access ISP pays the regional ISP to which it connects, and each regional ISP pays the tier-1 ISP to which it connects. (An access ISP can also connect directly to a tier-1 ISP, in which case it pays the tier-1 ISP). :point_right: customer-provider relationship at each level of the hierarchy. 
+
+> is some regions there may be alarger regional ISP (maybe spanning an entire country) to which smaller regional ISPs in that region connect. The larger regional ISP then connects to a tier-1 ISP. This is *Network Structure 3*
+
+- In addition there are PoPs(points of presence), multi-homing, peering, and Internet exchange points(IXPs). 
+
+- PoPs exist in all levels of the hierarchy, except for the bottom(access ISP) level. A PoP is simply a group of one or more routers (at the same location) in the provider's network wher cutomer ISPs can connect into the provider ISP. For a customer network to connect to a provider's PoP, it can lease a high-speed link from a third-party telecommunications provider to directly connect one of its routers to a router at the PoP. 
