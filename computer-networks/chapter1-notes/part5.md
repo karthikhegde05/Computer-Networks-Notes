@@ -18,4 +18,32 @@ A layered architecture allows us to discuss a well-defined, specific part of a l
 
 ### Protocol Layering 
 
- 
+To provide structure to the design of network protocols, network designers organize protcols in layers. Each protocol belongs to one of the layers. 
+
+We are interested in the services that a layer offers to the layer above - the so-called service model of a layer. 
+
+Each layer provides its service by:
+
+1. performing certain actions within that layer and 
+2. by using the services of the layer directly below it. 
+
+The  Five-layer Internet Protocol stack
+1. Application
+2. Transport
+3. Network 
+4. Link
+5. Physical 
+
+:point_right: Application layer protocols such as HTTP and SMTP are almost always implemented in software in the end systems; so are transport-layer protocols. 
+
+:point_right: Because the physical layer and data link layers are responsible for handling communication over a spcific link, they are typically implemented in a network interface card(ex: Ethernet/ WiFi interface cards) associated with a given link. 
+
+:point_right: The network layer is often a mixed implementation of hardware and software. 
+
+:point_right: the layered protocol is distributed among the end systems, packet switches, and other components that make up the network. That is, there's often a piece of a layer n protocol in each of these network components. 
+
+#### Drawbacks of layering
+
+One layer may duplicate lower-layer functionality. Ex: Many protocol stacks provide error recovery on both a per-link basis and an end-to-end basis. 
+
+Functionality at one layer may need information(ex: a time-stamp value) i.e present only in another layer

@@ -55,7 +55,7 @@ In this kind of networks, the resources needed along apath(buffers, link, transm
 
 #### Multiplexing in Circuit-Switched Networks
 
-A circuit in a link is implemented with either **frequency-division multiplexing (FDM) or time-division multiplexing (TDM)
+A circuit in a link is implemented with either **frequency-division multiplexing (FDM)** or **time-division multiplexing (TDM)**
 
 - With FDM, the frequency spectrum of a link is divided up among the connections established across the link. The link dedicates a frequency band to each connection for the duration of the connection. 
 > Ex: Telephone networks and FM radio stations use FDM
