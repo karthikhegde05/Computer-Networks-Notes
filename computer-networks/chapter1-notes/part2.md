@@ -101,3 +101,17 @@ end systems connect into the Internet via an access ISP. The access ISP can prov
 - In addition there are PoPs(points of presence), multi-homing, peering, and Internet exchange points(IXPs). 
 
 - PoPs exist in all levels of the hierarchy, except for the bottom(access ISP) level. A PoP is simply a group of one or more routers (at the same location) in the provider's network wher cutomer ISPs can connect into the provider ISP. For a customer network to connect to a provider's PoP, it can lease a high-speed link from a third-party telecommunications provider to directly connect one of its routers to a router at the PoP. 
+
+- Any ISP(except for tier-1 ISPs) may choose to **multi-home** i.e to connect to 2/more provider ISPs. 
+> ex: an access ISP may multi-home with 2 regional ISPs or it may multi-home with two regional ISPs and also with a tier-1 ISP. 
+>When ISP multi-homes, it can continue to send and receive packets even if one of its providers has a failure
+
+- To reduce the costs, a pair of nearby ISPs at the same level of the hierarchy can **peer**, i.e they can directly connect their networks together so that all the traffic between them passes over the direct connection rather than through upstream intermediaries.
+
+:point_right: Along these same lines, a third-party company can create an Internet Exchange Point(IXP) (typically in a stand-alone building with its own switches), which is a meeting point where multiple ISPs can peer together. :point_right: *Network Structure 4*
+
+:point_right: *Network Structure 5* builds on top of Network Structure 4 by adding **content provider networks**
+
+> ex: Google
+
+> Google private network attempts to "bypass" the upper tiers of the Internet by peering with lower-tier ISPs, either by directly connecting with them or by connecting with them at IXPs. However, because many access ISPs can still only be reached by transiting through tier-1 networks, the Google network also connects to tier-1 ISPs, and pays those ISPs for the traffic it exchanges with them.  
